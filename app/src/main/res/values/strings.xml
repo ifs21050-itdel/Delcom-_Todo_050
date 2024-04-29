@@ -1,6 +1,8 @@
 <resources>
-    <string name="app_name">Delcom Todo</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="status">Status</string>
-    <string name="terjadi_kesalahan">Terjadi kesalahan: %1$s</string>
+    <string name="app_name">Lost and Found</string>
+
+    <string-array name="status">
+        <item>lost</item>
+        <item>found</item>
+    </string-array>
 </resources>

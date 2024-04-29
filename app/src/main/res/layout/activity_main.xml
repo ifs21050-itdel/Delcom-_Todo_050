@@ -5,7 +5,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
     tools:context=".presentation.main.MainActivity">
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbarLayoutMain"
@@ -19,7 +18,7 @@
             android:id="@+id/appbarMain"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/primaryColor"
+            android:background="#074173"
             app:menu="@menu/main_menu"
             app:title="@string/app_name"
             app:titleTextColor="@color/white" />
@@ -32,27 +31,27 @@
         android:isScrollContainer="false"
         android:keepScreenOn="false"
         android:queryBackground="@null"
-        android:queryHint="Temukan todo..."
+        android:queryHint="Temukan barang..."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/appbarLayoutMain" >
     </SearchView>
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvMainTodos"
+        android:id="@+id/rvMainLostFounds"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/svMain"
-        tools:listitem="@layout/item_row_todo" />
+        tools:listitem="@layout/item_row_lostfound" />
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fabMainAddTodo"
+        android:id="@+id/fabMainAddLostFound"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        app:backgroundTint="@color/primaryColor"
+        app:backgroundTint="#0188A4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/ic_add_24"
@@ -73,7 +72,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Belum terdapat data todo!"
+        android:text="Belum terdapat data barang temuan!"
         android:textColor="#E6180D"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"

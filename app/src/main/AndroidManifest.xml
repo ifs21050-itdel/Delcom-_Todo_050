@@ -3,25 +3,40 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
 
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/ic_logo"
+        android:icon="@drawable/lf"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/ic_logo"
+        android:roundIcon="@drawable/lf"
         android:supportsRtl="true"
-        android:theme="@style/Theme.DelcomTodo"
+        android:theme="@style/Theme.LostFoundApp"
         tools:targetApi="31">
         <activity
-            android:name=".presentation.lostandfound.LostfoundDetailActivity"
+            android:name=".presentation.profile.ProfileManageActivity"
             android:exported="false" />
         <activity
-            android:name=".presentation.lostandfound.LostfoundManageActivity"
+            android:name=".presentation.lostfound.LostFoundFavoriteActivity"
             android:exported="false" />
         <activity
-            android:name=".presentation.lostandfound.LostfoundActivity"
+            android:name=".presentation.lostfound.LostFoundManageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.lostfound.LostFoundDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.register.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.profile.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.login.LoginActivity"
             android:exported="false" />
         <activity
             android:name=".presentation.main.MainActivity"
@@ -32,21 +47,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".presentation.todo.TodoManageActivity"
-            android:exported="false" />
-        <activity
-            android:name=".presentation.todo.TodoDetailActivity"
-            android:exported="false" />
-        <activity
-            android:name=".presentation.profile.ProfileActivity"
-            android:exported="false" />
-        <activity
-            android:name=".presentation.register.RegisterActivity"
-            android:exported="false" />
-        <activity
-            android:name=".presentation.login.LoginActivity"
-            android:exported="false" />
     </application>
 
 </manifest>

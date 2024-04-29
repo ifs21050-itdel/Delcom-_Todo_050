@@ -5,7 +5,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
     tools:context=".presentation.profile.ProfileActivity">
     <LinearLayout
         android:id="@+id/llProfile"
@@ -43,6 +42,22 @@
             android:layout_gravity="center"
             android:text="alamat email" />
     </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnEditProfile"
+        style="@style/TextBold.H6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:backgroundTint="#1679AB"
+        android:text="Edit Profile"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/llProfile" />
+
     <ImageView
         android:id="@+id/ivProfileBack"
         android:layout_width="36dp"
@@ -52,6 +67,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_arrow_back_24" />
+
     <ProgressBar
         android:id="@+id/pbProfile"
         style="?android:attr/progressBarStyle"
@@ -61,4 +77,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

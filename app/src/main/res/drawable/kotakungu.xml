@@ -1,0 +1,6 @@
+<!-- res/drawable/background_kotak.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#d8b9ec" />
+    <size android:width="500dp" android:height="80dp" /> <!-- Ubah ukuran sesuai kebutuhan -->
+</shape>

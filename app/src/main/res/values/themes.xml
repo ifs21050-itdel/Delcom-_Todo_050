@@ -1,12 +1,75 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.DelcomTodo" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="android:windowIsTranslucent">true</item>
-        <item name="colorPrimary">@color/primaryColor</item>
-        <item name="colorPrimaryVariant">@color/secondaryColor</item>
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Base.Theme.LostFoundApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorSecondary">@color/black</item>
     </style>
 
-    <style name="Theme.DelcomTodo" parent="Base.Theme.DelcomTodo" />
+    <style name="Theme.LostFoundApp" parent="Base.Theme.LostFoundApp" />
+
+    <style name="Text">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="TextBold">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="TextBold.H1">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="TextBold.H2">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="TextBold.H3">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextBold.H4">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextBold.H5">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextBold.H6">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextBold.H7">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Text.P1">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="Text.P2">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Text.P3">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Text.P4">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Text.P5">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Text.P6">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text.P7">
+        <item name="android:textSize">12sp</item>
+    </style>
 </resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <item name="llphoto" type="id" />
+    <item name="llTodophotoActionCover" type="id" />
+    <item name="btnTodophotoCamera" type="id" />
+    <item name="linearLayout" type="id" />
+</resources>
