@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.appbarMain.overflowIcon =
             ContextCompat
-                .getDrawable(this, R.drawable.ic_more_vert_24)
+                .getDrawable(this, R.drawable.menu)
 
         observeGetLostFounds()
     }

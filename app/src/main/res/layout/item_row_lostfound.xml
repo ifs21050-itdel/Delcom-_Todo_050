@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
     android:layout_marginBottom="15dp"
-    android:backgroundTint="#F3F3F3"
+    android:backgroundTint="#E0FFFF"
     tools:context=".presentation.lostfound.ItemRowLostFoundBinding">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Status Barang"
-            android:textColor="#AAAAAA"
+            android:textColor="@color/black"
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/ivItemLostFoundDetail"

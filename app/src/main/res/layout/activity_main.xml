@@ -14,11 +14,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:visibility="visible">
+
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/appbarMain"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#074173"
+            android:background="#50C2C9"
             app:menu="@menu/main_menu"
             app:title="@string/app_name"
             app:titleTextColor="@color/white" />
@@ -45,13 +46,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/svMain"
         tools:listitem="@layout/item_row_lostfound" />
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabMainAddLostFound"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        app:backgroundTint="#0188A4"
+        app:backgroundTint="#20B2AA"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/ic_add_24"

@@ -50,7 +50,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="7dp"
-        android:backgroundTint="#1679AB"
+        android:backgroundTint="#50C2C9"
         android:text="Edit Profile"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"

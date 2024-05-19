@@ -12,11 +12,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:visibility="visible">
+
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/appbarLostFoundManage"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#074173"
+            android:background="#50C2C9"
             app:navigationIcon="@drawable/ic_arrow_back_24"
             app:navigationIconTint="@color/white"
             app:title="Tambah Barang Temuan"
@@ -108,7 +109,9 @@
                 android:id="@+id/ivTodoManageCover"
                 android:layout_width="390dp"
                 android:layout_height="133dp"
+                android:layout_marginTop="10dp"
                 android:src="@drawable/ic_image_24"
+                app:layout_constraintBottom_toTopOf="@+id/llTodoManageActionCover"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="@id/etLostFoundManageStatus"
@@ -118,6 +121,7 @@
                 android:id="@+id/llTodoManageActionCover"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:gravity="center_horizontal"
                 android:orientation="horizontal"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -129,7 +133,7 @@
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="10dp"
-                    android:backgroundTint="#1679AB"
+                    android:backgroundTint="#50C2C9"
                     android:text="Camera"
                     android:textColor="@color/white" />
 
@@ -138,7 +142,7 @@
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
-                    android:backgroundTint="#1679AB"
+                    android:backgroundTint="#50C2C9"
                     android:text="Gallery"
                     android:textColor="@color/white" />
             </LinearLayout>
@@ -148,7 +152,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
-                android:backgroundTint="#1679AB"
+                android:backgroundTint="#50C2C9"
                 android:text="Simpan"
                 android:textSize="14sp"
                 app:cornerRadius="2pt"

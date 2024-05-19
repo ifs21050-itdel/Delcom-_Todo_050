@@ -16,7 +16,7 @@
             android:id="@+id/appbarLostFoundDetail"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#074173"
+            android:background="#50C2C9"
             app:navigationIcon="@drawable/ic_arrow_back_24"
             app:navigationIconTint="@color/white"
             app:title="Detail Lost Found"
@@ -52,8 +52,9 @@
 
                 <CheckBox
                     android:id="@+id/cbLostFoundDetailIsCompleted"
-                    android:layout_width="31dp"
-                    android:layout_height="32dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="5dp"
                     android:foregroundGravity="center"
                     android:scaleX="1"
                     android:scaleY="1"
@@ -65,19 +66,21 @@
                     android:id="@+id/tvLostFoundDetailTitle"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="20dp"
                     android:gravity="center_vertical"
                     android:text="Nama Barang"
                     android:textSize="20sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/cbLostFoundDetailIsCompleted"
                     app:layout_constraintTop_toBottomOf="@+id/ivTodoDetailCover" />
+
                 <TextView
                     android:id="@+id/tvLostFoundDetailDate"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginEnd="16dp"
                     android:text="Tanggal dibuat: -"
                     android:textColor="#AAAAAA"
@@ -85,24 +88,26 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/tvLostFoundDetailTitle" />
+
                 <TextView
                     android:id="@+id/tvLostFoundDetailDesc"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginEnd="16dp"
                     android:text="Deskripsi Barang"
                     android:textSize="16sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/tvLostFoundDetailDate" />
+
                 <TextView
                     android:id="@+id/tvLostFoundDetailStatus"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginEnd="16dp"
                     android:text="Status Barang"
                     android:textColor="#AAAAAA"
